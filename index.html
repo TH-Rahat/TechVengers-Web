@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechVengers</title>
+<!-- css link -->
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="customize.css">
+<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+<!-- font-awesome link -->
+<script src="https://kit.fontawesome.com/26acb014a1.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="containers">
+    <!-- Header -->
+    <header class="bg-slate-800/40 relative z-50">
+        <div class="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="#">
+                        <img class="h-28" src="img/logo.png" alt="Logo">
+                    </a>
+                </div>
+
+                <!-- Navigation -->
+                <nav class="nav flex border-2 rounded-full py-2 px-4">
+                    <ul class="nav-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Call to Action -->
+                <div class="hidden md:flex items-center">
+                    <a href="#" class="inline-block px-6 py-2 border border-transparent text-base font-semibold rounded-md text-white bg-cyan-400 hover:bg-cyan-500">
+                        Get Started
+                    </a>
+                </div>
+                <div class="icon">
+                    <div class="fas fa-bars" id="menu-btn" onclick="toggle_menu()"></div>
+                </div>                
+            </div>
+        </div>
+    </header>
+
+        <div class="slide">
+
+            <div class="item" style="background-image: url(img/wallpaper-1.jpeg);">
+                <div class="content">
+                    <div class="name">property management</div>
+                    <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(img/wallpaper-3.jpg);">
+                <div class="content">
+                    <div class="name">property management</div>
+                    <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(img/wallpaper-2.jpeg);">
+                <div class="content">
+                    <div class="name">property management</div>
+                    <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(img/wallpaper-4.jpg);">
+                <div class="content">
+                    <div class="name">property management</div>
+                    <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(img/wallpaper-1.jpeg);">
+                <div class="content">
+                    <div class="name">property management</div>
+                    <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                    <button>See More</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="button-group">
+            <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+    </div>       
+
+    <!-- intro card -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+        <!-- Card 1 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="https://innovify.com/wp-content/uploads/2022/11/devops-as-a-service.png" alt="Card Image" class="w-full h-3/5 object-cover">
+            <div class="p-4">
+                <h3 class="text-lg font-semibold mb-2">Development Services</h3>
+                <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur elit.</p>
+                <a href="#" class="text-blue-500 hover:underline mt-4 inline-block">Read More</a>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="https://th.bing.com/th/id/R.75685e8dd6b31c6f1cfd32337bce2802?rik=SMBg1oQIvVk9PQ&riu=http%3a%2f%2fwww.atmasamman.com%2fwp-content%2fuploads%2f2020%2f12%2ftechnology-consultant-1.jpg&ehk=7a2thMJALIcUOVuhrqtuYoaZIUqbShdBhrasmQ2%2fpKQ%3d&risl=&pid=ImgRaw&r=0" alt="Card Image" class="w-full h-3/5 object-cover">
+            <div class="p-4">
+                <h3 class="text-lg font-semibold mb-2">Technology Consulting</h3>
+                <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur elit.</p>
+                <a href="#" class="text-blue-500 hover:underline mt-4 inline-block">Read More</a>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="https://th.bing.com/th/id/OIP.gFlUHsfB16fkCr1RzQJVqAHaE8?pid=ImgDetMain" alt="Card Image" class="w-full h-3/5 object-cover">
+            <div class="p-4">
+                <h3 class="text-lg font-semibold mb-2">Security and Infrastructure</h3>
+                <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur elit.</p>
+                <a href="#" class="text-blue-500 hover:underline mt-4 inline-block">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- who we are -->
+    <div class="container mx-auto p-4">
+        <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="bg-transparent p-4 rounded-lg">
+            <h2 class="text-xl font-bold mb-2 pt-24 text-cyan-500">Who we are
+            </h2>
+            <h1 class="text-3xl font-bold text-cyan-500 w-4/5 mb-2">Crafting Tech Solutions for Your Success.</h1>
+            <p class="w-4/5 text-neutral-500 font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+
+            <div class="mt-10 ml-20 inline-block">
+                <h3>Website & Mobile App Developments</h3>
+                <p class="w-4/5 text-neutral-500 font-medium my-2">Vitae ex mattis consectetuer etiam natoque metus elit curabitur posuere netus ultrices</p>
+                <h3>Technology Consulting</h3>
+                <p class="w-4/5 text-neutral-500 font-medium my-2">Vitae ex mattis consectetuer etiam natoque metus elit curabitur posuere netus ultrices</p>
+                <h3>Security and Infrastructure</h3>
+                <p class="w-4/5 text-neutral-500 font-medium my-2">Vitae ex mattis consectetuer etiam natoque metus elit curabitur posuere netus ultrices</p>
+            </div>
+          </div>
+
+          <div class="bg-transparent p-4 rounded-lg shadow-lg">
+            <img src="img/logo.png" alt="" class="w-full h-5/5 object-cover">
+          </div>
+        </div>
+      </div>
+
+      <!-- big picture -->
+      <div class="relative py-10">
+        <img src="img/community.jpg" alt="" class="w-full h-[32rem] object-cover">
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center big">
+            <h2 class="text-white text-4xl font-bold">Partner with us for IT Infrastructure Management.</h2>
+            <p class="text-neutral-500 py-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            <button>See More</button>
+        </div>
+    </div>
+
+    <!-- number counting -->
+    <div class="wrapper">
+        <div class="container-1">
+            <span class="num" data-val="5000">000</span>
+            <h1>project done</h1>
+        </div>
+        <div class="container-1">
+            <span class="num" data-val="50000">0000</span>
+            <h1>happy Clients</h1>
+        </div>
+        <div class="container-1">
+            <span class="num" data-val="4.7">0.0</span>
+            <h1>Clients Rating</h1>
+        </div>
+        <div class="container-1">
+            <span class="num" data-val="540">00</span>
+            <h1>Expert Team</h1>
+        </div>
+     </div>
+
+     <!-- partner it -->
+     <h1 class="md:text-3xl text-2xl text-center font-bold text-stone-900">Partner with us for IT Infrastructure Management.</h1>
+      <div class="wrappers">
+        <div class="container-2">
+            <img src="img/image 4.png" alt="" class="rounded-full h-20">
+            <h1>Graphics Design</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, consequatur.</p>
+            <button><a href="#">learn more</a></button>
+        </div>
+        <div class="container-2">
+            <img src="img/image 4.png" alt="" class="rounded-full h-20">
+            <h1>Website Development</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, consequatur.</p>
+            <button><a href="#">learn more</a></button>
+        </div>
+        <div class="container-2">
+            <img src="img/image 4.png" alt="" class="rounded-full h-20">
+            <h1>Digital Marketing</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, consequatur.</p>
+            <button><a href="#">learn more</a></button>
+        </div>
+        <div class="container-2">
+            <img src="img/image 4.png" alt="" class="rounded-full h-20">
+            <h1>App Development</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, consequatur.</p>
+            <button><a href="#">learn more</a></button>
+        </div>
+        <div class="container-2">
+            <img src="img/image 4.png" alt="" class="rounded-full h-20">
+            <h1>Cloud Services</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, consequatur.</p>
+            <button><a href="#">learn more</a></button>
+        </div>
+        <div class="container-2">
+            <img src="img/image 4.png" alt="" class="rounded-full h-20">
+            <h1>Optimization</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, consequatur.</p>
+            <button><a href="#">learn more</a></button>
+        </div>
+      </div>
+
+<!-- footer start -->
+<footer class="bg-gray-800 text-white py-10">
+    <div class="footer-container max-w-screen-xl mx-auto px-4">
+        <div class="logo-row text-center mb-8">
+            <img src="img/logo.png" alt="Error404" class="mx-auto w-48 h-[30vh]">
+        </div>
+        <div class="content-row flex flex-col md:flex-row justify-between">
+            <!-- Contact Information -->
+            <div class="col mb-8 md:mb-0">
+                <div>
+                    <h4 class="text-teal-400 text-lg">Get In Touch</h4>
+                    <h2 class="text-2xl font-bold">TechVengers Property Management</h2>
+                    <h6 class="text-teal-200 text-sm">TechVengers Property Management LLC</h6>
+                </div>
+                <br>
+                <div class="contact-info space-y-3">
+                    <div>
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+15556667778" class="hover:text-teal-400">+1 555 666 7778</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:someone@example.com" class="hover:text-teal-400"> info.username@gmail.com</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <a href="#" class="hover:text-teal-400"> 1065 SW 8th St #1285, Miami, FL 33130</a>
+                    </div>
+                </div>
+                <br>
+                <div class="social-link flex space-x-4">
+                    <a href="#" class="hover:text-teal-400"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="hover:text-teal-400"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="hover:text-teal-400"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="hover:text-teal-400"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <!-- Important Links -->
+            <div class="col impo-links">
+                <h2 class="text-2xl font-bold mb-4">Important Links</h2>
+                <ul class="space-y-2">
+                    <li><a href="index.html" class="hover:text-teal-400"><span>Home</span></a></li>
+                    <li><a href="#service" class="hover:text-teal-400"><span>About Us
+                    </span></a></li>
+                    <li><a href="#moreService" class="hover:text-teal-400"><span>Our Services</span></a></li>
+                    <li><a href="#about" class="hover:text-teal-400"><span>Career</span></a></li>
+                    <li><a href="client.html" class="hover:text-teal-400"><span>Contact</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer end -->
+      
+    
+<script src="index.js"></script>
+</body>
+</html>
