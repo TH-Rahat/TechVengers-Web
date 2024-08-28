@@ -74,41 +74,66 @@
     
         </div>       
     
-        <div class="p-4">
-            <form action="submit_form.php" method="post">
-            <h1 class="text-3xl py-6 font-semibold">Submit your CV</h1>
-             <div class="input-row">
-                <label for="name">Name :</label>
-                <input type="text" id="name" name="name" required>
-             </div>
+        <div class="cv-details">
+            <div class="resume-details">
+                <h2 class="text-3xl">Career Opportunities:</h2>
+                <hr>
+                <p>Executive, Business Development (Night Shift)</p>
+                <p>Vacancy: 15</p>
+                <p>Employment Status: Full-time (Night Shift: 6:00 PM to 3:00 AM)</p>
+                <p>Location: On-site/Home Office</p>
+                <p>Office Address: House no -04, Adabor-13, Dhaka – 1207</p>
+                <h3>Responsibilities:</h3>
+                <ul>
+                    <li>Making inbound and outbound calls with professionalism and courtesy.</li>
+                    <li>Analyzing and refining business processes to ensure optimal client satisfaction.</li>
+                    <li>Serving as a liaison between clients and in-house teams to facilitate seamless communication.</li>
+                    <li>Managing vendor relationships and ensuring timely and quality service delivery.</li>
+                    <li>Coordinating with internal teams to fulfill vendor requirements and resolve issues.</li>
+                    <li>Negotiating contracts and agreements with vendors to optimize service levels and costs.</li>
+                </ul>
+                <h3>Compensation & Benefits:</h3>
+                <p>Salary: BDT 20,000 - 35,000 (Negotiable based on experience and Interview Process).</p>
+                <p>Performance bonus structure.</p>
+                <p>Two festival bonuses per year.</p>
+                <p>Annual increment based on performance.</p>
+                <p>Two-day weekend (Saturday, Sunday).</p>
+                <h3>Requirements:</h3>
+                <ul>
+                    <li>Minimum Bachelor’s Degree from any reputed institute.</li>
+                    <li>High proficiency in English (writing, reading, and listening).</li>
+                    <li>Freshers are encouraged to apply.</li>
+                    <li>Strong analytical skills with the ability to collect, organize, analyze, and disseminate significant information.</li>
+                    <li>Working experience in relevant fields will be given preference.</li>
+                </ul>
+                <p><strong>Application Deadline:</strong> August 31, 2024</p>
+                <p style="color: red; text-transform: none;">If you believe you possess the right qualifications and experience for either of these roles, please submit your updated resume and a cover letter highlighting your relevant industry experience to <a href="mailto:career.techvengers@gmail.com" class="underline">career.techvengers@gmail.com</a>.</p>
+                <p style="color: red;">Mention the specific position you are applying for in the subject line, specifying your experience in the relevant field.</p>
+            </div>
         
-            <div class="input-row">
-               <label for="number">Number :</label>
-               <input type="number" id="number" name="number">
-            </div>
-    
-            <div class="input-row">
-               <label for="email">Email :</label>
-               <input type="email" id="email" name="email" required>
-            </div>
-    
-            <div class="input-row">
-                <label for="file-upload" class="file-label">
-                    Choose a file to upload :
-                </label>
-                <input type="file" id="file-upload" name="file-upload">
-             </div>
+            <div class="vertical-line"></div>
         
-            <div class="input-row">
-               <label for="message" style="display: block;">Message :</label>
-               <textarea id="message" name="message"></textarea>
+            <div class="contact-container">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                    <div class="contact-left-title">
+                        <h2 class="text-3xl">Submit Your CV</h2>
+                        <hr>
+                    </div>
+                    <input type="text" name="name" placeholder="Enter Your Name" class="contact-inputs" required>
+                    <input type="email" name="email" placeholder="Enter Your Email" class="contact-inputs" required>
+                    <input type="number" name="number" placeholder="Enter Your Number" class="contact-inputs" required>
+                    <div class="documents">
+                        <label for="file">Add your documents:</label>
+                        <input type="file" name="file" class="contact-inputs" required>
+                    </div>
+                    <textarea name="message" placeholder="Enter Your Message" class="contact-inputs" required></textarea>
+                    <input type="hidden" name="access_key" value="60eeed0c-e65c-4a9b-8ef3-a4b8bffb3127">
+                    <button class="clear" type="reset">Clear</button>
+                    <button class="submit" type="submit">Submit</button>
+                </form>                
             </div>
-    
-            <input type="submit" name="send" value="Submit" class="inline-block px-6 py-2 border border-transparent text-base font-semibold rounded-md text-white bg-cyan-400 hover:bg-cyan-500" style="cursor: pointer;">
-    
-        </form>
-        </div>
-
+            
+        
     <script src="index.js"></script>
 </body>
 </html>

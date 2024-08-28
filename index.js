@@ -54,15 +54,3 @@ document.addEventListener("DOMContentLoaded", function () {
         observer.observe(counter);
     });
 });
-
-
-// career form
-// document.querySelector("form").addEventListener("submit", function(event) {
-//     let name = document.getElementById("name").value;
-//     let email = document.getElementById("email").value;
-
-//     if (name === "" || email === "") {
-//         alert("Name and email are required fields.");
-//         event.preventDefault();
-//     }
-// });
